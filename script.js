@@ -87,7 +87,7 @@ function updateDOM(page) {
     }
     imagesContainer.textContent = '';
    createDOMNodes(page);
-   showContent();
+   showContent(page);
 }
 
 //Get 10 images from NASA API
